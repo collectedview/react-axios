@@ -25,17 +25,7 @@ class Axios extends React.Component {
             <Col xs="12">
               <h1>React Axios</h1>
               <p>
-                Response/Promise Wrapper built with{" "}
-                <a href="https://reactjs.org/">React</a>,{" "}
-                <a href="https://github.com/axios/axios">Axios</a>,{" "}
-                <a href="https://rss2json.com">RSS to JSON</a>, &amp;{" "}
-                <a href="https://reactstrap.github.io/">Reactstrap</a>. Full
-                overview of the many implementations of{" "}
-                <a href="https://medium.com/@collectedview/modernizing-development-138e9caec621">
-                  Axios: HTTP Requests/Promises and Authentication Routing for
-                  JavaScript Applications
-                </a>
-                .
+                Response/Promise Wrapper built with <a href="https://reactjs.org/">React</a>, <a href="https://www.npmjs.com/package/axios">Axios</a>, <a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a>, & <a href="https://reactstrap.github.io/">Reactstrap</a>. Full overview of the many implementations of <a href="https://medium.com/swlh/axios-246b916c3100">Axios: HTTP Requests/Promises and Authentication Routing for JavaScript Applications.</a>
               </p>
             </Col>
           </Row>
