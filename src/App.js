@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import Axios from './axios';
+import Axios from "./Axios";
 
 function App() {
   return (
