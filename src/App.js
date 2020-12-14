@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import API from './api';
+import Axios from './axios';
 
 function App() {
   return (
     <div className="App">
-      <API />
+      <Axios />
     </div>
   );
 }

@@ -24,13 +24,13 @@ class Axios extends React.Component {
     return (
         <section>
           <Container>
-            <Row className="leading">
+            <Row className="m-5 mx-auto">
               <Col xs="12">
                 <h1>React Axios</h1>
                 <p>Response/Promise Wrapper built with <a href="https://reactjs.org/">React</a>, <a href="https://github.com/axios/axios">Axios</a>, <a href="https://rss2json.com">RSS to JSON</a>, &amp; <a href="https://reactstrap.github.io/">Reactstrap</a>. Full overview of the many implementations of <a href="https://medium.com/@collectedview/modernizing-development-138e9caec621">Axios: HTTP Requests/Promises and Authentication Routing for JavaScript Applications</a>.</p>
               </Col>
             </Row>
-            <Row className="leading"> 
+            <Row noGutters className="m-5 mx-auto"> 
               { this.state.blogs.map(blog =>
                 <Blog
                   key={blog.id}

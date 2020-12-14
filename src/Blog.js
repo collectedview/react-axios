@@ -5,8 +5,8 @@ import './App.css';
 
 const Blog = (props) => {
     return (
-        <Col lg="4" xs="12">
-            <Card className="scoring">
+        <Col lg="4" xs="12" className="p-2 mx-auto">
+            <Card>
                 <CardImg top width="100%" src={props.img} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{props.title}</CardTitle>
